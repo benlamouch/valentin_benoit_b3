@@ -1,0 +1,43 @@
+
+
+/* ---------------------------------- */
+.main_logo{
+  width: 100px;
+  height: 100px;
+  background: url('../images/th/th-gorilla01.jpg');
+  background-size: cover;
+}
+.ian_float{
+  position: relative;
+  border: 3px solid whitesmoke;
+  padding: 1em;
+}
+.ian_first_p{
+  font-size: .8em;
+}
+.ian_img{
+  float: left;
+  margin: 0 1em;
+}
+.read-more{
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+  background-color: whitesmoke;
+}
+.flex_link_a{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.hero{
+  background: url('images/lg-gorilla03.jpg');
+  background-size: cover;
+  background-color: grey;
+  height: 50vh;
+}
+.txt_center{
+  width: 50%;
+  margin: auto;
+}
