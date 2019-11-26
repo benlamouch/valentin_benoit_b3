@@ -11,6 +11,8 @@
   position: relative;
   border: 3px solid whitesmoke;
   padding: 1em;
+  width: 49%;
+  margin: .5em 0;
 }
 .ian_first_p{
   font-size: .8em;
@@ -32,12 +34,28 @@
 }
 
 .hero{
+  display: flex;
   background: url('images/lg-gorilla03.jpg');
   background-size: cover;
   background-color: grey;
   height: 50vh;
 }
+.hero > p{
+  margin: auto;
+}
 .txt_center{
   width: 50%;
   margin: auto;
+}
+section{
+  padding: 1em;
+}
+.column{
+  columns: 3;
+}
+
+.cards-section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
