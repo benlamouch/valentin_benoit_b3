@@ -1,0 +1,220 @@
+
+header
+{
+  background-color: black;
+  height: 90px;
+  position: fixed;
+  width: 100%;
+}
+body{
+  color: white;
+  background-color: gray;
+}
+footer
+{
+  background-color: black;
+  height: 200px;
+  border-top: 1px solid;
+  text-align: center;
+}
+/*---------------------NAVBAR----------------------------------*/
+nav{
+  background-color: black;
+}
+nav ul{
+  margin-left: 80px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+
+}
+
+li{
+  float: left;
+
+  height: 60px;
+}
+
+
+li:hover{
+  background-color: #0C0C0C;
+  font-size: 1.2em;
+}
+
+.logo
+{
+  border-radius: 60px;
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 70px;
+  float: left;
+}
+
+.logo:hover{
+  border: 2px solid white;
+}
+/*------------------------PAGE HERO-------------------------------*/
+.hero
+{
+  background: url(../css/images/jungle.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1{
+  font-size: 8em;
+  margin-bottom: 100px;
+  padding-top: 150px;
+}
+
+.description
+{
+  padding-bottom: 250px;
+}
+
+
+/*---------------------BLOC 2----------------------------------*/
+.bloc2
+{
+
+  color: white;
+  columns: 3;
+  padding-top: 150px;
+  padding-bottom: 250px;
+  width: 100%;
+}
+h2
+{
+  font-size: 2em;
+  column-span: all;
+  margin-bottom: 30px;
+}
+
+h3
+{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  text-transform:uppercase;
+  margin-bottom: 30px;
+}
+.colonne{
+  padding-bottom: 50px;
+}
+
+/*---------------------Monkeys face----------------------------------*/
+
+.test
+{
+  background: url(../css/images/imagefixe.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+/*---------------------BLOC 3----------------------------------*/
+.bloc3
+{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: black;
+}
+
+.bloc3,img
+{
+margin: 30px 10px 30px 15px;
+
+}
+
+.bloc3,img:hover{
+
+}
+.lienpage2{
+  color: black;
+  text-decoration: underline;
+  width: 100%;
+  float: right;
+}
+/*-----------------------BLOC 4--------------------------------------*/
+
+.bloc4{
+  width: 100%;
+  background-color: black;
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 100px;
+
+}
+.bloc4,figure{
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.bloc4,figure,a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.bloc4,figure:hover{
+  border: 1px solid gray;
+
+}
+/*--------------------------bloc-picture--------------------------------------*/
+
+.bloc-picture{
+  
+  text-align: center;
+  width: 100%;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  background-color: black;
+  height: 400px;
+}
+
+
+.picture{
+  position: absolute;
+  left: 50%;
+
+}
+
+/*--------------------------Page de gorille-----------------------------------*/
+
+.page1
+{
+  padding-top: 100px;
+  width:cover;
+  height: 600px;
+  background-color: black;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------Footer------------------------------------*/
+
+.footer{
+  float: left;
+}
